@@ -1,0 +1,16 @@
+CountdownSeconds:
+- 60
+- 50
+- 40
+- 30
+- 20
+- 10
+- 5
+- 4
+- 3
+- 2
+- 1
+
+CountdownTitleFormat: "&c新年まで残り&a: &e{TIME}"
+
+CountdownChatFormat: "&6[&cNewYear&6] &c新年まで... &e{TIME}"
