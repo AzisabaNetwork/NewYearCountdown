@@ -1,0 +1,6 @@
+name: ${project.name}
+main: net.azisaba.silo.newyear.NewYearCountdown
+version: ${project.version}
+authors: ["siloneco"]
+description: ${project.description}
+website: ${project.url}
