@@ -17,7 +17,7 @@ jobs:
         id: check_crackshot
         uses: andstor/file-existence-action@v1
         with:
-          files: "~/.m2/repository/com/shampaggon/CrackShot/"
+          files: "~/.m2/repository/com/shampaggon/CrackShot/0.98.11/"
       - name: Download CrackShot v0.98.11
         if: steps.check_crackshot.outputs.files_exists == 'false'
         run: curl -L -o CrackShot.jar https://dev.bukkit.org/projects/crackshot/files/3151915/download
