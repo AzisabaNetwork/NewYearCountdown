@@ -70,10 +70,5 @@ public class NewYearCountdownTask extends BukkitRunnable {
 
         // このオブジェクトを削除
         this.cancel();
-        try {
-            this.finalize();
-        } catch ( Throwable e ) {
-            e.printStackTrace();
-        }
     }
 }
